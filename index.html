@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="20240328.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tac+One&display=swap" rel="stylesheet">
+<title>Page Title</title>
+<style>
+    body {
+  font-family: 'Tac One', sans-serif;
+}
+container {
+  max-width: 400px;
+  margin: 20px auto;
+}
+h1 {
+  font-size: 32px;
+}
+/* Specific style for h1 */
+h1 {
+  color: rgb(149, 0, 255);
+}
+.yellow-button{
+    padding: 10px 20px;
+    background-color: #ffe02f; 
+    color: white;
+    margin: 100;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 2px 2px 6px rgb(71, 255, 54);
+    border-radius: 20%;
+}
+button:hover{
+    background-color: #08ffda; 
+}
+input[type="text"]{
+    width:50%;
+    padding:10px;
+    margin-bottom:10px;
+}
+@media(max-width:768px){
+  .container{
+  width:500%;
+  padding:10px;
+  }
+}
+  </style>
+   <!-- Add an element with an ID --> 
+   <h2 id="myHeading">Original Text</h2>
+   <!-- Add a button to the HTML -->
+   <button onclick="changeText()"> Click Me</button>
+
+  
+
+
+   <style>
+    body{
+background:linear-gradient(to bottom,rgb(255, 255, 1),rgb(249, 0, 0));
+background-repeat:no-repeat;
+background-attachment: fixed;
+
+    }
+
+</style>
+
+
+
+</head>
+<body>
+    <h1>This is a heading level 1</h1>
+    <script src="20230328.js"></script>
+    <h2>To do list </h2>
+    <input type="text" id="taskInput"placeholder="Add New Task">
+<button onclick="addTask()">Add Task</button>
+<ul id="taskList">
+    <!--asks will be added here -->
+    <h2>The idea that you thinks about Thornlea is very important </h2>
+</ul>
+<button class="yellow-button" onclick="window.location.href='index7.5.html'">Go and buy a Tim Hortons now !</button>
+</body>
+</html>
